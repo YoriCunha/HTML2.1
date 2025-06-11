@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evento Tech 2024</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <article>
+        <header>
+            <h1>Inscrições para o Evento Tech 2024</h1>
+            <p>Preencha o formulário abaixo para se inscrever no Evento.</p>
+        </header>
+
+        <form name="frmevento" method="get" action="#">
+            <fieldset>
+                <legend>Informações Pessoais</legend>
+                <input type="text" id="nome" name="nome" required placeholder="Nome Completo">
+                <input type="email" id="email" name="email" required placeholder="E-mail">
+                <input type="password" id="senha" name="senha" required placeholder="Crie uma senha" minlength="6">
+                <input type="number" id="idade" name="idade" required placeholder="Idade" min="0">
+                <input type="date" id="data_nascimento" name="data_nascimento" required>
+            </fieldset>
+            <fieldset>
+                <legend>Preferências do Evento</legend>
+                <label for="evento">Tema de Interesse:</label>
+                <select id="evento" name="evento" required>
+                    <option value="" disabled selected>Selecione um Tema</option>
+                    <option value="frontend">Frontend</option>
+                    <option value="backend">Backend</option>
+                    <option value="fullstack">Fullstack</option>
+                    <option value="mobile">Mobile</option>
+                </select>
+                <label for="workshop">Workshops</label>
+                <label>
+                    <input type="checkbox" name="workshop" value="web">
+                    Desenvolvimento Web Moderno
+                </label>
+                <label>
+                    <input type="checkbox" name="workshop" value="ia">
+                    Introdução à Inteligência Artificial
+                </label>
+                <label>
+                    <input type="checkbox" name="workshop" value="seguranca">
+                    Segurança na Internet
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Submissão da Aprensentação</legend>
+                <label for="titulo">Título:</label>
+                <input type="text" id="titulo" name="titulo">
+                <label for="descricao">Descrição:</label>
+                <textarea id="descricao" name="descricao" rows="10" required
+                    placeholder="Descreva sua apresentação"></textarea>
+                <label for="arquivo">Enviar Arquivo (PDF):</label>
+                <input type="file" id="arquivo" name="arquivo" accept=".pdf" required><br>
+                <button type="submit">Enviar Inscrição</button>
+            </fieldset>
+        </form>
+    </article>
+    <footer>
+        <p>&copy; 2024 Evento Tech. Todos os direitos reservados.</p>
+    </footer>
+</body>
+
+</html>

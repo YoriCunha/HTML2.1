@@ -1,0 +1,123 @@
+@font-face {
+    font-family: 'fonte';
+    src: url(pop.ttf);
+}
+
+body {
+    font-family: 'fonte';
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6vh;
+    flex-direction: column;
+}
+header h1 {
+    font-size: 6vh;
+    margin-bottom: 2vh;
+    margin-left: 2vh;
+}
+header p{
+    margin-left: 2vh;   
+}
+
+article {       
+    background-color: #fff;
+    padding: 1%;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.301);
+    width: 80vh;
+    float: none;
+}
+
+form {
+    margin-top: 4vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+fieldset {
+    justify-content: center;
+    align-items: center;
+    width: 70vh;
+    border: none;
+    outline: none;
+}
+
+legend {
+    color: rgb(175, 103, 243);
+    font-size: 2.5vh;
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+}
+
+input[type="text"],
+[type="email"],
+[type="password"]{
+    width: 72vh;
+    margin: 0.5vh;
+    padding: 1.4vh;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    border-color: #ccc;
+    font-family: 'fonte';
+}
+select{
+    width: 75vh;
+    margin: 0.5vh;
+    padding: 1.4vh;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    border-color: #ccc;
+    font-family: 'fonte';
+}
+input[type="number"],
+[type="date"] {
+    width: 20vh;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'fonte';
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    border-color: #ccc;
+}
+
+textarea {
+    width: 72vh;
+    margin: 0.5vh;
+    padding: 1.4vh;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    border-color: #ccc;
+    resize: none;
+    font-family: 'fonte';  
+}
+
+button[type="submit"] {
+    margin-top: 4vh;
+    padding: 1.5vh 3vh;
+    background-color: rgb(175, 103, 243);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.4s;
+}
+
+button[type="submit"]:hover {
+    transform: scale(1.03);
+    background-color: rgb(140, 80, 200);
+}
+footer{
+    text-align: center  ;
+    display: block;
+    width: 100%;
+    clear: both;
+    position: relative;
+}
