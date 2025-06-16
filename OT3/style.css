@@ -52,3 +52,77 @@ p {
     text-align: center;
     color: #000000;
 }
+#contato{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form {  
+    width: 60vh;
+    background-color: #000000;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}   
+fieldset {
+    border: none;
+    width: 50vh;
+    padding: 2vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+legend {
+    padding-top: 2vh;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+}
+#info input{
+    margin: 4px;
+    border: none;
+    border-radius: 5px;
+    padding: 1vh;
+    width: 50vh;
+}
+#sexo{
+    color: #fff;
+    margin: 10px;
+    display: block;
+    margin-left: 4px;
+    font-size: 15px;
+}
+#area label{
+    color: #fff;
+    display: block;
+    margin: 10px;
+    margin-left: 4px;
+    font-size: 15px;
+}
+#area textarea {
+    margin: 4px;
+    border: none;
+    border-radius: 5px;
+    padding: 1vh;
+    width: 50vh;
+    height: 20vh;
+    resize: none;
+}
+button {
+    color: #fff;
+    background-color: rgb(135, 104, 245);
+    border: none;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    margin-left: 4px;
+    text-align: center;
+    transition: transform 0.4s ease, background-color 0.4s ease, color 0.4s ease;
+}
+button:hover {
+    transform: scale(1.05);
+    background-color: rgb(255, 255, 255);
+    color: rgb(135, 104, 245);
+    transition: background-color 0.4s ease;
+}

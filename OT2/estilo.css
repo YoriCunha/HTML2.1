@@ -38,8 +38,6 @@ form {
 }
 
 fieldset {
-    justify-content: center;
-    align-items: center;
     width: 70vh;
     border: none;
     outline: none;
@@ -78,7 +76,7 @@ select{
 input[type="number"],
 [type="date"] {
     width: 20vh;
-    margin: 5px;
+    margin: 0.5vh;
     padding: 10px;
     border-radius: 5px;
     font-family: 'fonte';
