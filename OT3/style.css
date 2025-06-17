@@ -59,7 +59,7 @@ p {
 }
 form {  
     width: 60vh;
-    background-color: #000000;
+    background-color: #92ffe4;
     border-radius: 10px;
     display: flex;
     justify-content: center;
@@ -74,11 +74,11 @@ fieldset {
 }
 legend {
     padding-top: 2vh;
-    color: #fff;
     text-align: center;
     font-weight: bold;
 }
 #info input{
+    background-color: gray;
     margin: 4px;
     border: none;
     border-radius: 5px;
@@ -86,20 +86,19 @@ legend {
     width: 50vh;
 }
 #sexo{
-    color: #fff;
     margin: 10px;
     display: block;
     margin-left: 4px;
     font-size: 15px;
 }
 #area label{
-    color: #fff;
     display: block;
     margin: 10px;
     margin-left: 4px;
     font-size: 15px;
 }
 #area textarea {
+    background-color:   gray;
     margin: 4px;
     border: none;
     border-radius: 5px;
@@ -108,12 +107,16 @@ legend {
     height: 20vh;
     resize: none;
 }
+::placeholder {
+    color: #ffffff; 
+    opacity: 0.5; 
+}
 button {
-    color: #fff;
-    background-color: rgb(135, 104, 245);
+    color: #ffffff;
+    background-color: gray;
     border: none;
     border-radius: 5px;
-    width: 30px;
+    width: 50px;
     height: 30px;
     margin: 10px;
     margin-left: 4px;
@@ -122,7 +125,7 @@ button {
 }
 button:hover {
     transform: scale(1.05);
-    background-color: rgb(255, 255, 255);
-    color: rgb(135, 104, 245);
+    background-color: white;
+    color: rgb(0, 0, 0);
     transition: background-color 0.4s ease;
 }
