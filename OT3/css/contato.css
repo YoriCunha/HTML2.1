@@ -5,7 +5,7 @@
 body {
     font-family: 'Roboto Serif', sans-serif;
     margin: 0;
-    background-color: gray;
+    background-color: rgb(0, 0, 0);
 }
 
 header {
@@ -41,9 +41,9 @@ nav ul li:hover {
 }
 
 h1 {
-    font-size: 30px;
+    font-size: 5vh;
     text-align: center;
-    color: #000000;
+    color: #ffffff;
 }
 
 p {
@@ -58,7 +58,7 @@ p {
 }
 form {  
     width: 60vh;
-    background-color: #92ffe4;
+    background-color: #000000;
     border-radius: 10px;
     display: flex;
     justify-content: center;
@@ -73,11 +73,12 @@ fieldset {
 }
 legend {
     padding-top: 2vh;
-    text-align: center;
+    text-align: left;
     font-weight: bold;
+    color: #ffffff;
 }
 #info input{
-    background-color: gray;
+    background-color: rgb(51, 51, 51);
     margin: 4px;
     border: none;
     border-radius: 5px;
@@ -89,15 +90,17 @@ legend {
     display: block;
     margin-left: 4px;
     font-size: 15px;
+    color: #ffffff;
 }
 #area label{
     display: block;
     margin: 10px;
     margin-left: 4px;
     font-size: 15px;
+    color: #ffffff;
 }
 #area textarea {
-    background-color:   gray;
+    background-color:rgb(51, 51, 51);
     margin: 4px;
     border: none;
     border-radius: 5px;
@@ -112,7 +115,7 @@ legend {
 }
 button {
     color: #ffffff;
-    background-color: gray;
+    background-color: rgb(51, 51, 51);
     border: none;
     border-radius: 5px;
     width: 50px;
@@ -124,7 +127,6 @@ button {
 }
 button:hover {
     transform: scale(1.05);
-    background-color: white;
-    color: rgb(0, 0, 0);
+    background-color: rgb(253, 6, 6);
     transition: background-color 0.4s ease;
 }

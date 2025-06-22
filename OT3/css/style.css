@@ -9,6 +9,8 @@ body {
     padding: 0;
     overflow-x: hidden;
     overflow-y: hidden;
+    width: 100vw;
+    height: 100vh;
 }
 
 header {
@@ -32,7 +34,7 @@ nav ul {
 nav ul li {
     padding: 20px;
     margin: 0 5px;
-    transition: transform 0.5s ease , color 0.5s ease;
+    transition: transform 0.5s ease, color 0.5s ease;
 }
 
 nav ul li :hover {
@@ -57,10 +59,15 @@ h1 {
     position: absolute;
 }
 
-p {
-    font-size: 20px;
-    text-align: center;
+p{
+    margin-left: 6vh;
+    width: 60vh;
+    font-size: 3vh;
+    margin-top: 55vh;
+    text-align: left;
     color: #ffffff;
+    position: absolute;
+
 }
 
 video {
