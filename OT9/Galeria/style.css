@@ -16,26 +16,38 @@ main {
 
 .logo {
 	grid-area: logo;
+    background-image: url("../foto1.png");
+    background-size: cover;
 }
 
 .nav {
 	grid-area: nav;
+    background-image: url("../foto2.jpg");
+    background-size: contain;
 }
 
 .content {
 	grid-area: content;
+    background-image: url("../foto3.jpg");
+    background-size: contain;
 }
 
 .sidenav {
 	grid-area: sidenav;
+    background-image: url("../foto4.jpg");
+    background-size: contain;
 }
 
 .advert {
 	grid-area: advert;
+    background-image: url("../foto6.jpg");
+    background-size: cover;
 }
 
 .footer {
 	grid-area: footer;
+    background-image: url("../foto6.jpg");
+    background-size: contain;
 }
 
 .galeria {
@@ -52,7 +64,6 @@ main {
 /* Grid Item */
 .item {
 	margin: 5px;
-	background: green;
 	text-align: center;
 	font-size: 1.5em;
 }
@@ -80,3 +91,4 @@ body {
 body > div {
 	padding: 40px 0;
 }
+
