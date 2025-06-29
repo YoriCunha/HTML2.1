@@ -16,50 +16,49 @@ main {
 
 .logo {
 	grid-area: logo;
-    background-image: url("../foto1.png");
+    background-image: url("foto1.png");
     background-size: cover;
 }
 
 .nav {
 	grid-area: nav;
-    background-image: url("../foto2.jpg");
+    background-image: url("foto2.jpg");
     background-size: contain;
 }
 
 .content {
 	grid-area: content;
-    background-image: url("../foto3.jpg");
+    background-image: url("foto3.jpg");
     background-size: contain;
 }
 
 .sidenav {
 	grid-area: sidenav;
-    background-image: url("../foto4.jpg");
+    background-image: url("foto4.jpg");
     background-size: contain;
 }
 
 .advert {
 	grid-area: advert;
-    background-image: url("../foto6.jpg");
+    background-image: url("foto6.jpg");
     background-size: cover;
 }
 
 .footer {
 	grid-area: footer;
-    background-image: url("../foto6.jpg");
-    background-size: contain;
+    background-image: url("foto6.jpg");
+    background-size:contain;
 }
 
 .galeria {
-	grid-template-columns: 30% 50% 20%;
-	grid-template-rows: 30% 50% 20%;
+	grid-template-columns: 30% 40% 30%;
+	grid-template-rows: 25% 40% 35%;
 	grid-template-areas:
 		"logo nav nav"
 		"sidenav content advert"
-		"sidenav footer footer"
+		"footer footer footer"
 		;
 }
-
 
 /* Grid Item */
 .item {
