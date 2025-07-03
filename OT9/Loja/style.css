@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial;
+    padding: 10px;
+    background: #f1f1f1;
+}
+
+.header {
+    padding: 30px;
+    text-align: center;
+    background: white;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.topnav img {
+    width: 22px;
+    vertical-align: middle;
+    margin-right: 3px;
+}
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+section{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin-top: 2vh;
+}
+.sellcard { 
+    width: 80%;
+}
+
+.sellcard img {
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.descrição {
+    font-size: 15px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.valor {
+    font-size: 0.8rem;
+    font-weight: bold;
+}
